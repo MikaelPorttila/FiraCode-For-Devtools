@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "FiraCodeCdnFallback";
+    src: url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+}
+
+:host-context(.platform-linux) .monospace,
+:host-context(.platform-linux) .source-code,
+.platform-linux .monospace,
+.platform-linux .source-code {
+    font-family: "Fira Code", monospace, FiraCodeCdnFallback !important;
+    font-feature-settings: "calt" 1;
+    font-variant-ligatures: contextual;
+    font-weight: 500;
+}
+
+.monospace,
+.source-code {
+    font-family: "Fira Code", monospace, FiraCodeCdnFallback !important;
+    font-feature-settings: "calt" 1;
+    font-variant-ligatures: contextual;
+    font-weight: 500;
+}
+
+::shadow .monospace,
+::shadow .source-code {
+    font-family: "Fira Code", monospace, FiraCodeCdnFallback !important;
+    font-feature-settings: "calt" 1;
+    font-variant-ligatures: contextual;
+    font-weight: 500;
+}

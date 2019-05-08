@@ -1,0 +1,8 @@
+{
+    "name": "Fira Code for Devtools",
+    "version": "1.0.0",
+    "description": "Fira Code for Chromium Devtools",
+    "devtools_page": "devtools.html",
+    "author": "Mikael Porttila",
+    "manifest_version": 2
+}
