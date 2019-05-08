@@ -1,4 +1,4 @@
-# FiraCode For Devtools
+# Fira Code For Devtools
 
 Installation steps:
 1. Enable Devtools experimental features: ``` chrome://flags/#enable-devtools-experiments ```
